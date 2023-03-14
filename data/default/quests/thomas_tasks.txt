@@ -1,0 +1,15 @@
+*th_q1_t2
+#name Ve hacia la Clínica Cortman
+*th_q1_t3
+#name Asegura la zona
+*th_q1_t4
+#name Encuentra dos analgésicos
+*th_q1_t6
+#name Entrega las pastillas a Thomas
+
+*th_q2_t1
+#name Ve al restaurante.
+*th_q2_t2
+#name Encuentra algo de carne y arroz.
+*th_q2_t3
+#name Vuelve con Thomas.

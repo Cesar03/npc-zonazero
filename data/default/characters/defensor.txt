@@ -1,0 +1,17 @@
+#name Defensor|Defensor de la zona segura
+#set_stat Defensor|reputation|10
+
+#desc Nombre: Defensor de la zona segura
+#desc_append Edad: Desconocido
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Defensor,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append Un misterioso hombre con ropa militar que resguarda la entrada a Chernaville
+#desc_append Es cauteloso conmigo.
+#exit

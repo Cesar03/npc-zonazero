@@ -1,0 +1,17 @@
+#name Edward|Edward
+#set_stat Edward|reputation|10
+
+#desc Nombre: Edward
+#desc_append Edad: 21
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Edward,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append Tiene diarrea explosiva
+#desc_append AAAAAAAAAAAAAAAAAAA
+#exit

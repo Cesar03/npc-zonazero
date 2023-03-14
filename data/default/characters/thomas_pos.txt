@@ -1,0 +1,5 @@
+#is_flag th_intro,false
+    #npc_create Thomas|thomas_normal|idle|10671,10623,0|W
+    #exit
+#npc_create Thomas|thomas_normal|idle|10671,10623,0|SE
+#exit

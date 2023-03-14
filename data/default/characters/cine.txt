@@ -1,0 +1,17 @@
+#name Cine|Trabajadora de CineMAX
+#set_stat Cine|reputation|10
+
+#desc Nombre: Maria de Los Santos
+#desc_append Edad: 21
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Cine,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append Trabaja vendiendo tickets en el CineMAX en la zona segura
+#desc_append Es amable y algo coqueta conmigo.
+#exit

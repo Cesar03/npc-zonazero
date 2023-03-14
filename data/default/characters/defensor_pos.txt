@@ -1,0 +1,2 @@
+#npc_create Defensor|defensor_normal|idle|9889,10516,0|SE
+#exit

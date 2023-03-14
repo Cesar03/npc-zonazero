@@ -1,0 +1,15 @@
+#entry Nos llevan a Louisville
+    #line Ayer nos levantaron muy temprano, las cosas se están poniendo muy inestables en la zona de exclusión. La enfermedad que hace que las personas contraigan la rabia preocupa cada vez mas a médicos y militares por igual, la gente ya no sabe que pensar sobre eso, mucho hablan de que esas personas vuelven de la muerte.
+    #line En mi casa en Muldraugh tenemos todos nuestros recuerdos, pero nos han dicho que debemos evacuar la zona lo antes posible ya que los altercados cada vez son mas violentos, cogemos lo mas necesario y esencial y nos preparamos para un viaje hacia la entrada de Louisville.
+
+#entry Hacinamiento en Louisville
+    #line Desde que llegamos vimos la miseria humana, la gente pedía a gritos transpasar las vallas, cientos de militares bordean el límite de Louisville en lo que llaman la Zona de Exclusión, los militares, en respuesta disparaban a todos aquellos que se atrevieran a acercarse demasiado a ellos, fuimos de los últimos del día en entrar, al otro lado, las cosas no erán mejor, los refugiados viven en tiendas de acampada en los límites de las vallas y el campamento militar.
+    #line No me gusta esto, almenos tengo a Kate, ella siempre está insistiendo en ver el lado positivo "Almenos nos sacaron de allí!" dice ella, "No sabemos que nos podría haber pasado, la gente se empezó a volver loca" recordaba también.
+    #line Mamá no duerme casi desde hace ya 1 semana, vigilaba que nadie entrara en casa de noche y ahora vigila nuestra carpa mientras dormimos, ella dice que está bien, que no le hace falta, pero yo no la creo.
+
+#entry La ciudad inmortal
+    #line La última ciudad en pie de Knox Country...
+    #line Así la llamaba la gente en busca de auto convencerse a si mismos de que estaban a salvo, pero nadie se lo creia realmente, el condado entero habia caido en apenas unas semanas, y confiaban en que unas vallas y un puñado de armas sería suficiente para parar a las multitudes. Los disparos se escuchaban cada vez mas cerca y la agitación y miedo empezó a filtrarse hasta los agentes del orden, que cada vez mas dimitian, buscando pasar mas tiempo con su familia.
+
+#entry Nuevos avances: RoseWood
+    #line dc_q1_cleared|Después de mucho esfuerzo llego a RoseWood

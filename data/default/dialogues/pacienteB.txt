@@ -1,0 +1,4 @@
+#m Chloe|"¿Escuchaste los rumores? Dicen que a uno de los residentes de la zona segura lo mordieron y sigue viviendo aquí... ¡Yo opino que deberían expulsarlo! Es un peligro para la seguridad de todos los que vivimos aquí"
+#m You|"Tu lo has visto con tus ojos? No se... podrían estar mintiendo"
+#m Chloe|"No, yo apenas me muevo por aquí, a mi me lo han contado, sabes quien? El obrero que se encarga de reparar y mantener la muralla, si tienes dudas ves a hablar con el, parecía muy convencido de lo que decía"
+#m *La mujer deja de prestarte atención y continua revisando unos papeles, parece la cita con la doctora"

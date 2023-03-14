@@ -1,0 +1,19 @@
+#is_flag Cine_intro,true
+    #jump loop
+*intro
+#m Cine|Cine.png|"Buenos días! Bienvenidos a CineMAX, ¿Que película les gustaría visualizar hoy?"
+#m La joven mujer señala al panel tras ella, se observan distintos títulos de películas y horarios
+#m Cine|Cine.png|"¿Y bien? ¿Te has decidido por alguna?, si prefieres te puedo recomendar yo misma."
+#m You|"Ahora mismo no me sabría decidir"
+#m Cine|Cine.png|"Bueno tenemos grandes éxitos de antes de la caída de la civilización, por ejemplo en 20 minutos empieza la sesión de la película Sister Act"
+#m You|"Le daré un intento, si tu lo dices seguro que es una gran película"
+#m Cine|Cine.png|"¡Oh yo adoro las películas de comedia! Nunca viene mal echarse unas risas en este mundo lleno de tristeza."
+#m *Maria te entrega un boleto para pasar a la zona de reproducción*"
+#fade_out black
+#set_flag Cine_intro,true
+#fade_in
+#exit
+
+*loop
+#m Cine|Cine.png|Hola cielo, espero que disfrutes de la película, si necesitas cualquier cosa hazmelo saber"
+#exit

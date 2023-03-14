@@ -1,0 +1,23 @@
+#is_flag defensor_intro,true
+    #jump loop
+*intro
+#m Defensor|Defensor.png|"¡Alto ahí!, identificación ahora mismo"
+#m Observas al militar armado, te sorprende que las fuerzas armadas sigan operativas tras la caída del gobierno
+#m Defensor|Defensor.png|"¿Estas sordo o que te pasa? ¿No sabes contestar cuando te preguntan? Tal vez tengo que cortarte la lengua si no la usas..."
+#m You|"Quien eres tu y quien te crees para hablarme así? Los militares como tu ya no teneis ningún tipo de autoridad en el país..."
+#m Defensor|Defensor.png|"Respuesta equivocada escoria, yo no soy un militar, ¡Soy un defensor!"
+#m You|"¡Un... defensor? Y que es lo que defiendes si se puede saber, jajaja"
+#m Defensor|Defensor.png|"Así que un graciosillo... A lo mejor si que termino cortando la lengua. Soy un guardián de la entrada a la zona segura! Lo que queda de humanidad y civilización esta tras esta puerta y mi deber es autorizar quien entra o sale de aquí."
+#m You|"¡Pero eso... Es imposible! Ya no quedan asentamientos ni ciudades en pié."
+#m Defensor|Defensor.png|"Veo que tampoco sabes usar los ojos.... ¿Acaso no lo ves? ¡La alcaldesa Kazushii levantó Chernaville de los escombros, acogió a todos aquellos que todavía sienten un apego por la vida en comunidad y construimos estos muros para mantener fuera a los levantados, es la última ciudad!"
+#m Mhm, la última ciudad... Te preguntas donde escuchaste eso antes... Pero no lo podías negar, altos muros contruidos con diversos materiales y basura se levantaba ante tus ojos, creando una gruesa pared entre el interior y exterior de la ciudad, puede que fuera verdad, puede que todavía quedara algo de la vida pasada.
+#m Defensor|Defensor.png|"¡Eh, tu! ¡Reacciona! Se te pone cara de estúpido cuando te quedas pensando, aunque juraría que no tienes cerebro tampoco, al menos los levantados no te detectarán como presa de esa forma, no es tan sencillo, aquí hay unas normas que debes seguir, revísalas en tu panel de noticias y cuando las comprendas puedes proceder a entrar"
+#fade_out black
+#set_flag de_q1_completed,true
+#set_flag defensor_intro,true
+#fade_in
+#exit
+
+*loop
+#m Defensor|Defensor.png|”Circule, no esta permitido obstruir la entrada a la zona segura.”
+#exit

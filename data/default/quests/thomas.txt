@@ -1,0 +1,30 @@
+#quest th_q1
+    #task t1|unlocked|hidden
+        #set FindItem|Base.Pills,2
+    #task t2
+        #set GotoLocation|10881,10034,0|building
+        #action UnlockTask|th_q1|t3
+    #task t3
+        #set Secure|10881,10034,0|building
+        #action UnlockTask|th_q1|t4
+    #task t4
+        #set LootContainer|counter|10875,10027,0|Base.Pills,false|Base.Pills,false
+    #task t5|unlocked|hidden
+        #set TaskCondition|th_q1|t1/t2,t3,t4
+        #action UnlockTask|th_q1|t6
+    #task t6
+        #set RaiseFlag|th_q1_completed
+        #action SelectReward|Base.TinnedBeans,2,common|Base.TinnedSoup,2,common|TinOpener,1,common,true
+        #action CompleteQuest|th_q1
+
+#quest th_q2
+    #task t1|unlocked
+        #set GotoLocation|10261,10562|building
+        #action UnlockTask|th_q2|t2
+    #task t2
+        #set LootContainer|counter|10617,10559,0|PinkSlip.Van_MassGenFac,false|Base.Rice,false
+        #action UnlockTask|th_q2|t3
+    #task t3
+        #set GotoLocation|10671,10623,0|building
+        #action SelectReward|Base.AssaultRifle,1,rare|Base.Fork,1,common
+        #action CompleteQuest|th_q2

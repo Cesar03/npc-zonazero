@@ -1,0 +1,17 @@
+#name Chloe|Chloe
+#set_stat Chloe|reputation|10
+
+#desc Nombre: Chloe
+#desc_append Edad: 21
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Chloe,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#desc_append AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#exit

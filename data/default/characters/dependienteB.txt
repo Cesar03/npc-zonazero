@@ -1,0 +1,17 @@
+#name Elizabeth|Elizabeth
+#set_stat Elizabeth|reputation|10
+
+#desc Nombre: Elizabeth
+#desc_append Edad: 28
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Elizabeth,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append Trabaja en el GigaMart de la zona segura aunque su trabajo de los sueños es ser jardinera.
+#desc_append Tiene problemas de alcoholismo.
+#exit

@@ -1,0 +1,2 @@
+#npc_create Chloe|pacienteB_normal|idle|9670,10452,0|S
+#exit

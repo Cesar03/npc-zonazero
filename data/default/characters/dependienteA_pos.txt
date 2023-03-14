@@ -1,0 +1,2 @@
+#npc_create Martha|dependienteA_normal|idle|9754,10323,0|S
+#exit

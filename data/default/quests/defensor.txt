@@ -1,0 +1,5 @@
+#quest de_q1
+    #task t1
+    #set RaiseFlag|def_q1_completed
+    #action Reward|EXP,Aiming
+    #action CompleteQuest|de_q1

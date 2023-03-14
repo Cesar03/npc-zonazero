@@ -1,0 +1,51 @@
+#is_flag th_intro,true
+    #jump loop
+*intro
+#m Thomas|Thomas.png|”Hey colega! Como puedes ver, me he metido en un lio de cojones ¿Podrías ayudarme?”
+#m Notas un destello de ilusión en la mirada del joven. Debes de ser la primera persona que encuentra después de quedar atrapado bajo los escombros del techo.
+#choice
+    intro_help|Ayudar
+    intro_leave|Ignorar
+*intro_leave
+#m Mientras te alejas del joven, oyes sus gritos desesperados.
+#m Thomas|Thomas.png|”No, espera!!! Por favor, te daré todo lo que tengo! Joder, no me dejes aquí!!!”
+#stat_dec Thomas|reputation|5
+*intro_help
+#m Decides ayudar al muchacho a salir.
+#fade_out black
+#set_flag th_intro,true
+#npc_update Thomas
+#fade_in
+#reveal Thomas
+#exit
+
+*loop
+#is_quest th_q1|locked
+    #m Thomas|Thomas.png|”Aggggggh, me arde la pierna. Dios, como duele!! No tendrás analgésicos por ahí? 
+    #quest_unlock th_q1
+    #m *Revisas tus bolsillos en busca de pastillas para calmar su dolor
+    #has_item Base.Pills,2
+        #jump th_q1_found
+    #m *But finds nothing and decides to visit Cortmans Medical*
+    #task_unlock th_q1|t2
+    #exit
+#is_quest th_q1|unlocked,uncompleted
+    #m *Thomas asked if we found the pills*
+    #has_item Base.Pills,2
+        *th_q1_found
+        #remove_item Base.Pills,2
+        #m *Player gives Thomas his pills*
+        #m *Thomas says thanks*
+        #set_flag th_q1_completed,true
+        #exit
+    #m *Player answers that he hasn’t found them yet*
+    #exit
+
+#is_quest th_q2|locked
+    #m Thomas|Thomas.png|"Ahora que ya tenemos algo de medicina deberíamos tener algo de comida por si el viaje se alarga mas de lo esperado, yo apenas tengo comida para un par de días"
+    #quest_unlock th_q2
+    #m Thomas|Thomas.png|"Me parece que ví un restaurante cercano cuando corria hacia la gasolinera, si no recuerdo mal debería estar hacia el norte a unos minutos de aquí, busca algo de provisiones y cuando vuelvas empezaremos a planear nuestro viaje, mucha suerte amigo."
+    #task_unlock th_q1|t1
+
+#m Thomas|Thomas.png|”Me alegro de verte vivo amigo mio.”
+#exit

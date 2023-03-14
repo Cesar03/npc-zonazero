@@ -1,0 +1,2 @@
+#npc_create Elizabeth|dependienteB_normal|idle|9767,10340,0|N
+#exit

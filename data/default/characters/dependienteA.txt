@@ -1,0 +1,17 @@
+#name Martha|Martha
+#set_stat Martha|reputation|10
+
+#desc Nombre: Martha
+#desc_append Edad: 32
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Martha,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+*after_status
+#desc_append Trabaja en el GigaMart de la zona segura, siempre se asegura de vender productos a buen precio.
+#desc_append No suele salir de noche.
+#exit

@@ -1,0 +1,30 @@
+#name Thomas|Thomas
+#set_stat Thomas|reputation|10
+
+#desc Nombre: Thomas
+#desc_append Edad: 28 Años
+#desc_append Estado: En desarrollo (incompleto)
+
+
+#is_alive Thomas,true
+    #desc_append Status: Vivo
+    #jump after_status
+#desc_append Status: Fallecido
+
+
+*after_status
+#desc_append Un superviviente errante, está en busca de un refugio seguro
+#is_flag thomas_secret,true
+    #desc_append Whistling a tune of spanish hymn at night.
+
+#is_stat Thomas,reputation,15,gt
+    #desc_append I guess I became his errand ${female,girl,boy}.
+    #exit
+#is_stat Thomas,reputation,60,gt
+    #desc_append I think our relationship is fine.
+    #exit
+#is_stat Thomas,reputation,30,gt
+    #desc_append He’s starting to trust me.
+    #exit
+#desc_append Es cauteloso conmigo.
+#exit

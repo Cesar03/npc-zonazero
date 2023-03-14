@@ -1,0 +1,2 @@
+#npc_create Edward|pacienteA_normal|idle|9660,10461,0|W
+#exit

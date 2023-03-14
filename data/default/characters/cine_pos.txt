@@ -1,0 +1,2 @@
+#npc_create Cine|cine_normal|idle|9748,10413,3|S
+#exit

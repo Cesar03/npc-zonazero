@@ -1,0 +1,7 @@
+*th_q1
+#name En busca de suministros
+#desc Thomas esta decidido a que debemos buscar a Kate, pero antes debemos prepararnos con provisiones.
+
+*th_q2
+#name Es hora de llenar esa barriga!
+#desc Ahora que tenemos algo de medicamentos deberíamos buscar provisiones de comida para el viaje.
